@@ -1,32 +1,27 @@
-Jekyll Photo Grid Gallery
+R Graph Gallery
 =========
 
-Jekyll theme based on [Blueprint: Google Grid Gallery](http://tympanus.net/codrops/?p=18699)
+Based on Jekyll to produce an R Graph Gallery on github pages.
 
-## How to use
-1. Place a large image in `/img/large/`
-2. Place a thumbnail version of the same image in `/img/thumb/`. _Remember to use the same file name_
-3. Construction a post to display the image. Use the follow as an example:
-```txt
----
-layout: default
-date:   2014-04-06 23:26:12
-photo: 1.png
-caption_header: Sample header
-caption: sample caption
----
-```
-4. And finally, serve Jekyll source as you would normally.
+R Graph Gallery is based on: [najetey/GridGallery](https://github.com/nadjetey/GridGallery) that is originally based on [codrips/GridGallery](https://github.com/codrops/GridGallery), see the article [Google Grid Gallery](http://tympanus.net/codrops/2014/03/21/google-grid-gallery/). See also more information on [jekyllthemes.org](http://jekyllthemes.org/themes/gridgallery/).
 
-## [Demo](https://nadjetey.github.io/GridGallery)
+# How to use
 
-View this jekyll theme in action [here](https://nadjetey.github.io/GridGallery)
+Dependent on `R`.
 
-## Screenshot
-![screenshot](https://raw.github.com/nadjetey/GridGallery/master/jggg.png)
+  1. Fork this repository.
+  2. Put your R-code that creates the plot in [`R-plots`](/R-plots). 
+  3. Run [`create_gallery.R`](create_gallery.R).
+  4. Push to github branch gh-pages.
+  5. View the result on https://username.github.io/rgrapgallery.
+  
+# Demo
 
-Localhost deployment
-=========
-After [downloading](https://github.com/nadjetey/GridGallery/archive/master.zip), use the normal process of serving a jekyll site. Navigate to the directory in terminal and type `jekyll build` followed by `jekyll serve`
+[https://elenius.github.io/rgrapgallery]([https://elenius.github.io/rgrapgallery])
 
-For more details, read [documentation](http://jekyllrb.com/)
+# Licence
+
+My contribution is made in the /R and /R-Plots folders, see [LICENCE](LICENCE).
+
+
+
