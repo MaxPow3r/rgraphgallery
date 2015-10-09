@@ -3,7 +3,7 @@ R Graph Gallery
 
 Based on Jekyll to produce an R Graph Gallery on github pages.
 
-R Graph Gallery is based on: [najetey/GridGallery](https://github.com/nadjetey/GridGallery) that is originally based on [codrips/GridGallery](https://github.com/codrops/GridGallery), see the article [Google Grid Gallery](http://tympanus.net/codrops/2014/03/21/google-grid-gallery/). See also more information on [jekyllthemes.org](http://jekyllthemes.org/themes/gridgallery/).
+R Graph Gallery is based on: [najetey/GridGallery](https://github.com/nadjetey/GridGallery) that is  based on [codrips/GridGallery](https://github.com/codrops/GridGallery), see the article [Google Grid Gallery](http://tympanus.net/codrops/2014/03/21/google-grid-gallery/). See also more information on [jekyllthemes.org](http://jekyllthemes.org/themes/gridgallery/).
 
 # How to use
 
@@ -17,11 +17,11 @@ Dependent on `R`.
   
 # Demo
 
-[https://elenius.github.io/rgrapgallery]([https://elenius.github.io/rgrapgallery])
+[https://elenius.github.io/rgraphgallery]([https://elenius.github.io/rgraphgallery])
 
 # Licence
 
-My contribution is made in the /R and /R-Plots folders, see [LICENCE](LICENCE).
+My contribution is mainly in the `R`-code: /R and /R-Plots folders, see [LICENCE](LICENCE).
 
 
 
