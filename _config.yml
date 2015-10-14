@@ -2,9 +2,9 @@ name: R graph gallery
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title/
-url: http://elenius.github.io/rgraphgallery
+url: http://maxpow3r.github.io/rgraphgallery
 author:
-    name: Micke
+    name: Hanna
     twitter: #
 exclude:
     - LICENSE
